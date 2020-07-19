@@ -23,6 +23,7 @@ p {
 	width: 500px;
 	margin: 0 auto;
 	margin-bottom: 40px;
+	border-radius: 30px;
 }
 
 #tabs li,#tabs2 li,#tabs3 li,#tabs4 li,#tabs5 li {
@@ -33,13 +34,14 @@ p {
 #tabs li a,#tabs2 li a,#tabs3 li a,#tabs4 li a,#tabs5 li a {
 	display: block;
 	padding: 17px 30px;
-	background: #544f6b;
+	background: #bdbdbd;
 	text-decoration: none;
-	color: #8478B3;
+	color: #474747;
+	border-radius: 10px 10px 0px 0px;
 }
 
 #tabs li a:hover,#tabs2 li a:hover,#tabs3 li a:hover,#tabs4 li a:hover,#tabs5 li a:hover {
-	background: rgb(78, 74, 99);
+	background: rgb(139, 139, 139);
 }
 
 #tabs_container {
@@ -47,6 +49,7 @@ p {
 	overflow: hidden;
 	position: relative;
 	background: white;
+	border-radius: 0px 10px 10px 10px;
 }
 
 #tabs_container div {
@@ -214,7 +217,7 @@ p {
 
 /*SITE STYLING*/
 html {
-	background: #655c89;
+	background-image: url(https://www.yangshangzhen.com/bing/wallpaper);
 	font-family: 'Lato', sans-serif;
 	color: white;
 }
@@ -225,7 +228,7 @@ html {
 }
 
 h1 {
-	color: #655c89;
+	color: #f5f5f5;
 	font-size: 50px;
 	text-align: center;
 	padding-top: 30px;
@@ -235,7 +238,7 @@ h1 {
 
 h1 span {
 	font-weight: bold;
-	color: rgba(101, 92, 137,.3);
+	color: rgba(255, 255, 255, 0.3);
 }
 
 h2,h3 {
@@ -249,10 +252,11 @@ h2,h3 {
 h3 {
 	text-align: left;
 	font-size: 28px;
+	color: #000000;
 }
 
 h4,h5 {
-	color: #655c89;
+	color: #b8b8b8;
 	margin-bottom: 20px;
 	font-size: 19px;
 }
@@ -281,25 +285,25 @@ p {
 }
 
 .demointro {
-	color: #FFF;
+	color: rgb(255, 255, 255);
 	width: 500px;
 	margin: 0 auto;
 	text-align: left;
 	margin-bottom: 30px;
-	border-radius: 20px;
+
 
 }
 
 #mainbuttons {
 	width: 350px;
 	margin: 0 auto;
-	border-radius: 20px;
+
 }
 
 #mainbuttons li {
 	float: left;
 	margin-right: 10px;
-	border-radius: 20px;
+
 }
 
 #footerlink {
@@ -309,18 +313,18 @@ p {
 	width: 100%;
 	text-align: center;
 	display: block;
-	color: #777;
-	border-radius: 20px;
+	color: rgb(255, 255, 255);
+
 }
 
 #footerlink:hover {
 	text-decoration: underline;
-	border-radius: 20px;
+
 }
 
 #mainbuttons li:nth-child(2) {
 	margin-right: 0px;
-	border-radius: 20px;
+
 }
 
 #mainbuttons li a,.button {
@@ -344,14 +348,13 @@ p {
 #mainbuttons li a:hover,.button:hover {
 	background: rgb(228, 109, 89);
 	cursor: pointer;
-	border-radius: 20px;
+
 }
 
 #myform {
 	width: 400px;
 	margin: 0 auto;
-	position: relative;
-	border-radius: 20px;
+
 }
 
 #myform,#myform2 {
@@ -359,7 +362,7 @@ p {
 	margin: 0 auto;
 	position: relative;
 	margin-bottom: 60px;
-	border-radius: 20px;
+
 }
 
 #myform label,#myform2 label {
@@ -367,13 +370,13 @@ p {
 	display: block;
 	text-transform: uppercase;
 	font-size: 14px;
-	color: #557DA8;
+	color: #ffffff;
 	font-weight: bold;
-	border-radius: 20px;
+
 }
 
 .white {
-	color: #557DA8;
+	color: #ffffff;
 }
 
 #myform input[type="text"],#myform textarea {
@@ -398,7 +401,7 @@ p {
 	transition: border .25s linear, color .25s linear;
 	-webkit-backface-visibility: hidden;
 	width: 100%;
-	border-radius: 20px;
+
 }
 
 #myform textarea {
@@ -408,20 +411,20 @@ p {
 #myform input[type="text"]:focus,#myform textarea:focus {
 	outline: 0;
 	border: 2px solid white;
-	border-radius: 20px;
+
 }
 
 #container {
 	width: 100%;
 	background: white;
-	border-radius: 20px;
+
 }
 
 #header {
 	background: white;
 	height: 300px;
 	width: 100%;
-	border-radius: 20px;
+
 }
 
 .regular-checkbox {
@@ -435,13 +438,13 @@ p {
 	display: inline-block;
 	position: relative;
 	margin-right: 10px;
-	border-radius: 20px;
+
 }
 
 .regular-checkbox:active,.regular-checkbox:checked:active {
 	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
 	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
-	border-radius: 20px;
+
 }
 
 .regular-checkbox:checked {
@@ -450,7 +453,7 @@ p {
 	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
 	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
 	color: #99a1a7;
-	border-radius: 20px;
+
 }
 
 
@@ -461,7 +464,7 @@ p {
 	top: -2px;
 	left: 1px;
 	color: white;
-	border-radius: 20px;
+
 }
 
 pre,code {
@@ -474,13 +477,13 @@ pre,code {
 	overflow: hidden;
 	background: #F8F8F8;
 	color: #333;
-	border-radius: 20px;
+
 }
 
 pre {
 	margin-bottom: 20px;
 	overflow-x: auto;
-	border-radius: 20px;
+
 }
 
 .wrapper {
@@ -488,25 +491,25 @@ pre {
 	width: 800px;
 	margin: 0 auto;
 	max-width: 100%;
-	border-radius: 20px;
+
 }
 
 .wrapper ul {
 	margin-left: 20px;
-	border-radius: 20px;
+
 }
 
 .wrapper ul li {
 	color: #777;
 	list-style-type: disc;
 	margin-bottom: 20px;
-	border-radius: 20px;
+
 }
 
 .wrapper h3 {
 	width: 100%;
 	margin-bottom: 20px;
-	border-radius: 20px;
+
 }
 
 hr {
@@ -515,44 +518,44 @@ hr {
 	border-top: 1px dotted #C0C0C0;
 	margin-top: 60px;
 	margin-bottom: 60px;
-	border-radius: 20px;
+
 }
 
 table {
 	width: 100%;
 	color: #777;
 	margin-bottom: 20px;
-	border-radius: 20px;
+
 }
 
 table thead tr th {
 	font-weight: bold;
-	border-radius: 20px;
+
 }
 
 table tr {
 	border-bottom: 1px solid #C0C0C0;
-	border-radius: 20px;
+
 }
 
 table th,table td {
 	padding: 10px;
-	border-radius: 20px;
+
 }
 
 table tr:nth-child(odd) {
 	background: #F8F8F8;
-	border-radius: 20px;
+
 }
 
 table tr:hover {
 	background: #FFF6BF;
-	border-radius: 20px;
+
 }
 
 table thead tr,table thead tr:hover {
 	background: none !important;
-	border-radius: 20px;
+
 }
 
 .doclink {
@@ -562,7 +565,6 @@ table thead tr,table thead tr:hover {
 	font-size: 11px;
 	text-decoration: none;
 	text-transform: uppercase;
-	border-radius: 20px;
 }
 
 .doclink:hover {
@@ -573,21 +575,19 @@ table thead tr,table thead tr:hover {
 	color: #FFF;
 	margin-top: 30px;
 	margin-bottom: 10px;
-	border-radius: 20px;
 }
 
 .demo2 {
 	font-size: 21px;
-	color: rgb(132, 120, 179);
+	color: rgb(0, 0, 0);
 }
 
 .created_by {
 	font-size: 12px;
 	display: block;
 	margin-top: 10px;
-	border-radius: 20px;
 }
 
 .created_by a {
-	color: rgb(101, 92, 137);
+	color: rgb(255, 255, 255);
 }
