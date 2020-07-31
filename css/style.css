@@ -1,11 +1,16 @@
-@charset "utf-8"; /* CSS Document */
-a,a:active,a:focus {
+@charset "utf-8";
+
+/* CSS Document */
+a,
+a:active,
+a:focus {
 	outline-color: -moz-use-text-color;
 	outline-style: none;
 	outline-width: 0;
 }
 
-a:active,a:focus {
+a:active,
+a:focus {
 	outline: expression(hideFocus='true');
 }
 
@@ -19,19 +24,31 @@ p {
 	margin-top: 100px;
 }
 
-#tabs,#tabs2,#tabs3,#tabs4,#tabs5 {
+#tabs,
+#tabs2,
+#tabs3,
+#tabs4,
+#tabs5 {
 	width: 500px;
 	margin: 0 auto;
 	margin-bottom: 40px;
 	border-radius: 30px;
 }
 
-#tabs li,#tabs2 li,#tabs3 li,#tabs4 li,#tabs5 li {
+#tabs li,
+#tabs2 li,
+#tabs3 li,
+#tabs4 li,
+#tabs5 li {
 	float: left;
 	margin-right: 2px;
 }
 
-#tabs li a,#tabs2 li a,#tabs3 li a,#tabs4 li a,#tabs5 li a {
+#tabs li a,
+#tabs2 li a,
+#tabs3 li a,
+#tabs4 li a,
+#tabs5 li a {
 	display: block;
 	padding: 17px 30px;
 	background: #bdbdbd;
@@ -40,8 +57,13 @@ p {
 	border-radius: 10px 10px 0px 0px;
 }
 
-#tabs li a:hover,#tabs2 li a:hover,#tabs3 li a:hover,#tabs4 li a:hover,#tabs5 li a:hover {
+#tabs li a:hover,
+#tabs2 li a:hover,
+#tabs3 li a:hover,
+#tabs4 li a:hover,
+#tabs5 li a:hover {
 	background: rgb(139, 139, 139);
+
 }
 
 #tabs_container {
@@ -241,7 +263,8 @@ h1 span {
 	color: rgba(255, 255, 255, 0.3);
 }
 
-h2,h3 {
+h2,
+h3 {
 	color: #777;
 	text-align: center;
 	width: 500px;
@@ -255,7 +278,8 @@ h3 {
 	color: #000000;
 }
 
-h4,h5 {
+h4,
+h5 {
 	color: #b8b8b8;
 	margin-bottom: 20px;
 	font-size: 19px;
@@ -275,7 +299,8 @@ p {
 	line-height: 150%;
 }
 
-.left,.right {
+.left,
+.right {
 	width: 46%;
 	float: left;
 }
@@ -327,7 +352,8 @@ p {
 
 }
 
-#mainbuttons li a,.button {
+#mainbuttons li a,
+.button {
 	border-radius: 20px;
 	display: block;
 	padding: 10px 15px;
@@ -345,7 +371,8 @@ p {
 	border: 0px;
 }
 
-#mainbuttons li a:hover,.button:hover {
+#mainbuttons li a:hover,
+.button:hover {
 	background: rgb(228, 109, 89);
 	cursor: pointer;
 
@@ -357,7 +384,8 @@ p {
 
 }
 
-#myform,#myform2 {
+#myform,
+#myform2 {
 	width: 500px;
 	margin: 0 auto;
 	position: relative;
@@ -365,7 +393,8 @@ p {
 
 }
 
-#myform label,#myform2 label {
+#myform label,
+#myform2 label {
 	margin-bottom: 5px;
 	display: block;
 	text-transform: uppercase;
@@ -379,7 +408,8 @@ p {
 	color: #ffffff;
 }
 
-#myform input[type="text"],#myform textarea {
+#myform input[type="text"],
+#myform textarea {
 	background: #7bb7fa;
 	border: 2px solid #6EA5E1;
 	color: white;
@@ -408,7 +438,8 @@ p {
 	height: 80px;
 }
 
-#myform input[type="text"]:focus,#myform textarea:focus {
+#myform input[type="text"]:focus,
+#myform textarea:focus {
 	outline: 0;
 	border: 2px solid white;
 
@@ -431,8 +462,8 @@ p {
 	-webkit-appearance: none;
 	border: 2px solid #6EA5E1;
 
-	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
-	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
 	padding: 7px;
 	border-radius: 0px;
 	display: inline-block;
@@ -441,17 +472,18 @@ p {
 
 }
 
-.regular-checkbox:active,.regular-checkbox:checked:active {
-	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
-	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+.regular-checkbox:active,
+.regular-checkbox:checked:active {
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px 1px 3px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px 1px 3px rgba(0, 0, 0, 0.1);
 
 }
 
 .regular-checkbox:checked {
 	border: 2px solid white;
 
-	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
-	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05), inset 15px 10px -12px rgba(255, 255, 255, 0.1);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05), inset 15px 10px -12px rgba(255, 255, 255, 0.1);
 	color: #99a1a7;
 
 }
@@ -467,7 +499,8 @@ p {
 
 }
 
-pre,code {
+pre,
+code {
 	font-family: "Consolas", "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
 	font-size: 12px;
 	line-height: 18px;
@@ -538,7 +571,8 @@ table tr {
 
 }
 
-table th,table td {
+table th,
+table td {
 	padding: 10px;
 
 }
@@ -553,7 +587,8 @@ table tr:hover {
 
 }
 
-table thead tr,table thead tr:hover {
+table thead tr,
+table thead tr:hover {
 	background: none !important;
 
 }
@@ -571,7 +606,8 @@ table thead tr,table thead tr:hover {
 	text-decoration: underline;
 }
 
-.demo,.demo2 {
+.demo,
+.demo2 {
 	color: #FFF;
 	margin-top: 30px;
 	margin-bottom: 10px;
