@@ -119,6 +119,16 @@ input, select, textarea {
 	height: 20px;
 }
 
+.logo svg {
+	fill: #ffffff;
+}
+
+.logo svg {
+	width: 30px;
+	height: 30px;
+	margin-top: 30px;
+}
+
 	html {
 		font-size: 16pt;
 	}
